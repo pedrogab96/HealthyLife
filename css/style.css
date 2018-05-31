@@ -211,9 +211,6 @@ h3 {
     .contatos-title-map{
         border: 0px;
     }
-    .contatos-borde-map{
-        border-color: transparent !important;
-    }
 }
 
 @media screen and (max-width: 412px) {
@@ -245,9 +242,6 @@ h3 {
     }
     .contato {
         margin: 0;
-    }
-    .contatos-borde-map{
-        border-color: transparent !important;
     }
     .faleconosco-form{
         margin-top: 50px !important;
