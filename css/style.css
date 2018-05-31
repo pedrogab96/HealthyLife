@@ -12,7 +12,7 @@ h3 {
 
 
 .menu {
-    padding: 4px 10% !important;
+    padding: 4px 10vw !important;
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -190,7 +190,7 @@ h3 {
     }	
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 412px) {
     .contato {
         margin: 0;
     }
@@ -199,7 +199,7 @@ h3 {
         height: 35vh;
     }
     .menu{
-        padding:4px 6vw !important;
+        padding:4px 4vw !important;
     }
 
 }
