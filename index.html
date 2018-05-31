@@ -16,7 +16,7 @@
 
 <body>
 	<header>
-		<nav class="navbar navbar-expand-md fixed-top menu">
+		<nav class="navbar navbar-expand-lg fixed-top menu">
 			<a class="navbar-brand" href="#">
 				<img src="assets/logo.png">
 			</a>
@@ -74,10 +74,10 @@
 				</div>
 			</div>
 		</div>
-		<a class="carousel-control-prev" href="#inicial" data-slide="prev">
+		<a class="carousel-control-prev setas-slide" href="#inicial" data-slide="prev">
 			<span class="carousel-control-prev-icon"></span>
 		</a>
-		<a class="carousel-control-next" href="#inicial" data-slide="next">
+		<a class="carousel-control-next setas-slide" href="#inicial" data-slide="next">
 			<span class="carousel-control-next-icon"></span>
 		</a>
 
@@ -86,7 +86,7 @@
 		<div class=" corte-slide-inicial"></div>
 	</div>
 
-	<div id="quemsomos" class="background-No-repeat cover">
+	<div id="quemsomos" class="background-No-repeat cover" style="overflow: hidden;">
 		<div class="row position-text">
 			<div class="col-1 col-sm-1 col-lg-1"></div>
 			<div class="col-10 col-sm-7 col-lg-4 ">
@@ -98,7 +98,8 @@
 					Sed vel pellentesque odio.</p>
 				<button type="button" class="btn btn-warning text-uppercase">Quero conhecer mais</button>
 			</div>
-			<div class="col-1 col-sm-4">
+			<div class="col-3 col-sm-3" >
+				
 			</div>
 		</div>
 	</div>
@@ -210,22 +211,22 @@
 
 	<div id="faleconosco">
 		<div class="row contato">
-			<div class=" col-12 col-md-12 col-lg-7">
-				<h4> Nosso contatos</h4>
-				<p >
+			<div class=" col-12 col-md-12 col-lg-7 contatos-borde-map" style="border-right: 1px solid blue">
+				<h4 class="font-weight-bold text-uppercase"> Nosso contatos</h4>
+				<p style="margin-bottom:40px;" >
 					<i class="fas fa-phone texto-contato" style="color: #F27234;"></i> +55 3333-4444 
 					<i class="fas fa-phone texto-contato" style="color: #F27234;"></i> +55 99999-8888
 					<i class="fas fa-envelope" style="color: #F27234; margin: 0 4px;"></i> contato@healthy.com.br
 				</p>
-				<h4 class="text-uppercase"> Nosso escritorio </h4>
+				<h4 class="font-weight-bold text-uppercase"> Nosso escritorio </h4>
 				<p>Av. Fernado Luis Miguel, 2356, João Correia, Natal-RN</p>
 				<div>
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992.268554265464!2d-35.20802317077379!3d-5.845164665603207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7b2ff7bd9169a3b%3A0xdeacd0b0cfc365ec!2sR.+dos+Ant%C3%BArios%2C+805+-+Capim+Macio%2C+Natal+-+RN%2C+59078-180!5e0!3m2!1spt-BR!2sbr!4v1527431545707"
 					 class="map" frameborder="0" style="border:0" allowfullscreen></iframe>
 				</div>
 			</div>
-			<div class=" col-12 col-md-12 col-lg-4">
-				<h4>Fale CONOSCO</h4>
+			<div class=" col-12 col-md-12 col-lg-4 faleconosco-form">
+				<h4 class="font-weight-bold text-uppercase">Fale CONOSCO</h4>
 				<span>Se preferir,nos envie uma mensagem que retornaremos em breve</span>
 				<form action="#">
 					<div class="form-row">
@@ -244,7 +245,7 @@
 						<div class=" col-12 col-md-12  col-md-12">
 							<textarea class="form-control" id="mensagem" rows="3" placeholder="Sua mensagem"></textarea>
 							<div class="text-right">
-								<button type="submit" class="btn btn-primary">Enviar</button>
+								<button type="submit" class="btn" style="background: #F27234;" >Enviar</button>
 							</div>
 						</div>
 					</div>
@@ -252,6 +253,9 @@
 			</div>
 		</div>
 	</div>
+	<div class="tamanho-corte">
+			<div class=" corte-quemsomos"></div>
+		</div>
 	<div class="row footer">
 		<div class="col-9 footer-margin">
 			<p>© Copyright Healthy 2017. Todos os Direitos Reservados.</p>
